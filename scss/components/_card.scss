@@ -1,0 +1,18 @@
+.card {
+  padding: 1.5rem;
+  background: var(--color-bg);
+  color: var(--color-text);
+  //border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: .5rem;
+  margin: 1rem 0;
+  box-shadow: var(--box-shad);
+
+  display: flex;
+  flex-direction: column;
+  
+  a {
+    margin-block-start: 1rem;
+    text-align: center;
+  }
+
+}

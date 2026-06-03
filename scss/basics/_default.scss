@@ -1,0 +1,55 @@
+@use "../basics/variables" as v;
+
+//--------------------------------
+
+body {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  .products {
+    display: flex;
+    gap: 1rem;
+    margin-inline: 1rem;
+
+    @media (max-width: 50rem) {
+      flex-direction: column;
+    }
+  }
+}
+
+img {
+  border-radius: .5rem;
+}
+
+h1 {
+  font-family: var(--font-title);
+  margin-inline-start: 1rem;
+  margin-block-start: 1rem;
+  padding: 1rem;
+  border-radius: .5rem;
+  background: v.$primary;
+  color: v.$dark-text;
+  justify-self: start;
+  align-self: start;
+  box-shadow: var(--box-shad);
+
+  @media (max-width: 50rem) {
+    align-self: center;
+  }
+}
+
+h3 {
+  font-family: var(--font-title);
+}
+
+p {
+  font-family: var(--font-txt);
+}
+
+a {
+  font-family: var(--font-txt);
+  color: v.$primary;
+}

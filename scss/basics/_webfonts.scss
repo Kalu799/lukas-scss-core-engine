@@ -1,0 +1,21 @@
+/* --- ROBOTO VARIABLE --- */
+@font-face {
+  font-family: 'Roboto';
+  // Assurez-vous de l'extension exacte (.woff2 ou .ttf)
+  src: url('../webfonts/Merriweather,Robot/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf');
+  
+  // Trrrès important : on indique au navigateur la plage supportée
+  font-weight: 100 900; 
+  font-stretch: 75% 100%; // Correspond à l'axe wdth
+  font-style: normal;
+}
+
+/* --- MERRIWEATHER VARIABLE --- */
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../webfonts/Merriweather,Robot/Merriweather/Merriweather-Italic-VariableFont_opsz,wdth,wght.ttf');
+  
+  font-weight: 300 900;
+  font-stretch: 87% 112%; // Correspond à l'axe wdth de Merriweather
+  font-style: normal;
+}

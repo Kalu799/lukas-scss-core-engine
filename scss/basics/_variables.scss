@@ -1,0 +1,21 @@
+
+$primary:#4f46e5;
+$light-bg:#ffffff;
+$light-text:#222222;
+$dark-bg:#181818;
+$dark-text:#f5f5f5;
+
+$bg:rgb(242, 240, 230);
+
+//--------------------------------
+
+:root {
+  --font-txt : 'roboto', sans-serif;
+  --font-title : 'Merriweather', serif;
+
+  --color-primary : #{$primary};
+  --color-bg : #{$bg};
+  --box-shad : 2px 5px 10px #CCC;
+}
+
+//--------------------------------
