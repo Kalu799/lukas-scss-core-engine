@@ -3,7 +3,7 @@
 //--------------------------------
 
 header {
-  background: v.$bg;
+  background: var(--color-light-bg);
   padding: 1rem;
   display: flex;
   justify-content: end;

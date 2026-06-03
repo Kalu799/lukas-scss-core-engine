@@ -1,0 +1,11 @@
+[data-theme="dark"] {
+  body {
+    background-color: var(--color-dark-bg);
+  }
+};
+
+[data-theme="light"] {
+  body {
+    background-color: #FFF;
+  }
+};
